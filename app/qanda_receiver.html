@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/ >
+<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Daily Code</title>
+</head>
+<body>
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.3.3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
+<h1 class="f-subheadline lh-title pa0 ma0 tc"> Question & Answer </h1>
+<div class="mw9 center ph3-ns">
+<div class="cf ph2-ns">
+   <div class="fl w-100 w-50-ns pa2">
+      <div class="bg-white br4 h4">
+         <div class="question">
+            <p class="ml2 mt2 fs-normal bb pv1" id="ques">Question?</p>
+            <p id="render-ques" class="pv2 ml2 mt2"></p>
+         </div>   
+      </div> 
+    </div>
+   
+   <div class="fl w-100 w-50-ns pa2">
+      <div class="bg-white h4 br4">
+         <div class="answer"> 
+            <p class="fs-normal ml2 mt2 bb pv1" id="ans">Anwser!</p>
+            <p id="render-ans" class="ml2 mt2 pv2">
+      
+            </p>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+
+<div class="mw9 center ph3-ns">
+<div class="cf ph2-ns">
+   <div class="fl w-100 w-50-ns pa2">
+      <div class="bg-white br4 h4">
+         <div class="question">
+            <p class="fs-normal ml2 mt2 bb pv1" id="ques">Score Board</p>
+            <h2 id="displayScore" class="f2 ml2">0</h2>
+            <h2 class="f4 cl ml2">OUT OF</h2>
+            <h2 id="outScore" class="f2 ml2">0</h2>
+         </div>   
+      </div> 
+    </div>
+   
+   <div class="fl w-100 w-50-ns pa2">
+      <div class="bg-white h4 br4">
+         <div class="answer"> 
+            <p class="fs-normal ml2 mt2 bb pv1" id="ans">Anwser!</p>
+            <textarea id="enter-a" class="fl mv2 w-90 ml2" placeholder="Enter Answer"></textarea>
+            <button id="Submit-A" name="submit" class="fw2 fl bw0 cl mh2" value="Submit" >Submit</button>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/QandA_receiver.js"></script>
+</body>
+</html>
