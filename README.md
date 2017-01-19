@@ -1,4 +1,4 @@
-# QandA_WebApp
+# QandA_WebApp:sparkles:
 Source for a web application utilizing :sparkles: PubNub's API :sparkles:with scoring feature. (No Server Code)
 
 ## Video Demo
